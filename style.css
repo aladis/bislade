@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  width: 1400px;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+}
+
+header {
+  width: 1400px;
+  display: flex;
+  height: 120px;
+  background-color: rgb(232, 235, 241);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  line-height: 0.4;
+  position: absolute;
+  top: 45px;
+  margin-left: 196px;
+  font-size: 45px;
+}
+.logo_blue {
+  color: rgb(42, 172, 200);
+}
+nav {
+  margin-left: 511px;
+  margin-top: 48px;
+}
+
+.top_nav a {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: Arial;
+  cursor: pointer;
+  margin-left: 47px;
+}
+.top_nav a:active {
+  color: rgb(42, 172, 200);
+}
+.nav1 {
+}
+.bg {
+  background-color: rgb(129, 228, 237);
+  height: 500px;
+  z-index: 33;
+}
